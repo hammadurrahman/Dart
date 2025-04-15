@@ -52,7 +52,7 @@ void main() {
     [6, 7, 8],
     [10, 1, 6]
   ];
-
+  List<int> passengerTimelineCount = List.filled(1001, 0);
   test('test case 1', () => expect(carPooling(trips, 4), false));
   test('test case 2', () => expect(carPooling(trips, 5), true));
   test('test case 3', () => expect(carPooling(trips1, 3), true));
